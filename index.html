@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Ghost River</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="stage">
+      <!-- the game canvas is inserted here -->
+      <div class="layer flash" id="flash" aria-live="polite"></div>
+      <div class="touch-hint left" id="hint-left" aria-hidden="true"></div>
+      <div class="touch-hint right" id="hint-right" aria-hidden="true"></div>
+      <div class="hud">
+        <button type="button" id="mute" class="icon-button" aria-label="Mute">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path class="speaker" d="M4 9h4l5-4v14l-5-4H4z"/><path class="waves" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/><path class="cross" d="M16 9l6 6M22 9l-6 6"/></svg>
+        </button>
+        <button type="button" id="pause" class="icon-button" aria-label="Pause">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path class="bars" d="M8 5v14M16 5v14"/></svg>
+        </button>
+      </div>
+      <div class="layer paused-panel" id="paused">
+        <p class="paused-title">Paused</p>
+        <button type="button" class="play" data-action="resume">Resume</button>
+        <button type="button" class="secondary" data-action="quit">Quit to title</button>
+      </div>
+    </div>
+    <div class="rotate-hint" id="rotate-hint">Rotate your device for a bigger view</div>
+    <div class="instructions" id="instructions"></div>
+    <div class="info" id="info"></div>
+    <script src="game.js"></script>
+  </body>
+</html>

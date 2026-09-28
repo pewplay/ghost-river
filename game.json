@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Ghost River",
+  "description": "Row Dante's boat down a haunted river and dodge four kinds of ghosts across nine programming-language hells in this free browser game.",
+  "about": "You are Dante, a developer who died and ended up in Developer's Hell for all those jokes about JavaScript. Guided by your mentor Virgilius Torvalds, you row a small boat down the Acheron river while ghosts fall from above, and one touch costs you one of your three hearts.\n\nEach of the nine levels is a different language hell, from Python and Ruby up to Malbolge, HolyC and COBOL. Ghosts get faster and arrive closer together as you descend, and the four ghost types each move their own way: some fall straight, some slide from wall to wall, some drift toward your boat and some teleport right in front of you before vanishing in smoke.\n\nOriginally created by Michel Sabchuk for js13kGames 2022 as Dante's Dev Hell.",
+  "howToPlay": "Steer the boat left and right at the bottom of the river to avoid every falling ghost. Clear all the ghosts of a level to sail on to the next hell. You have three hearts for the whole journey, so survive all nine levels to earn your redemption.",
+  "controls": [
+    {
+      "input": "Left / Right arrows or A / D",
+      "action": "Row left or right"
+    },
+    {
+      "input": "Touch and hold left or right side",
+      "action": "Row left or right on phones and tablets"
+    },
+    {
+      "input": "Mouse press on left or right side",
+      "action": "Row left or right"
+    },
+    {
+      "input": "Space or pause button",
+      "action": "Pause and resume"
+    },
+    {
+      "input": "Esc",
+      "action": "Quit to the title screen"
+    }
+  ],
+  "tips": [
+    "Stay near the middle of the river so you can escape to either side when a ghost lines up with you.",
+    "Ghosts that drift toward your boat can be outrun: wait until they commit, then row hard the other way.",
+    "When a ghost with a curl on its head gets close it teleports right in line with your boat, so be ready to dodge the moment it jumps.",
+    "Sliding ghosts bounce off the banks, so watch which way they are heading before you cross their path."
+  ],
+  "faq": [
+    {
+      "question": "Is Ghost River free to play?",
+      "answer": "Yes, it is completely free and runs in your browser with nothing to install."
+    },
+    {
+      "question": "Can I play Ghost River on a phone or tablet?",
+      "answer": "Yes. Touch and hold the left or right side of the screen to row; it plays best with the phone held upright."
+    },
+    {
+      "question": "How many levels are there?",
+      "answer": "There are nine levels, each named after a programming language, and ghosts get faster and more frequent as you go deeper."
+    }
+  ],
+  "category": "Arcade",
+  "tags": [
+    "dodge",
+    "ghosts",
+    "river",
+    "programming",
+    "retro",
+    "js13k"
+  ],
+  "author": "Michel Sabchuk",
+  "playMode": "SinglePlayer",
+  "orientation": "portrait",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-09-28",
+  "draft": false
+}
